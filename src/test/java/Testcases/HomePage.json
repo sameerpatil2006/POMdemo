@@ -1,0 +1,28 @@
+{
+  "homePageLabel" : [
+    {
+      "rowID": "homePageLabel.01",
+      "Label": "Home"
+    },
+    {
+      "rowID": "homePageLabel.02",
+      "Label": "About us"
+    },
+    {
+      "rowID": "homePageLabel.03",
+      "Label": "Services"
+    },
+    {
+      "rowID": "homePageLabel.04",
+      "Label": "Demo"
+    },
+    {
+      "rowID": "homePageLabel.05",
+      "Label": "Blog"
+    },
+    {
+      "rowID": "homePageLabel.06",
+      "Label": "Contact"
+    }
+]
+}
