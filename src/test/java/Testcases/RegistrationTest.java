@@ -17,7 +17,7 @@ public class RegistrationTest extends CommonSetup {
     @BeforeClass
     public void registrationSetup(){
         common = new CommonPO<>(driver);
-        registrationPO = new RegistrationPO<>();
+        registrationPO = new RegistrationPO<>(driver);
         common.invokeRegistration();
         getData("C:\\Users\\Sameer\\IdeaProjects\\DemoQA\\src\\test\\java\\Testcases\\Registration.json");
     }
@@ -34,12 +34,13 @@ public class RegistrationTest extends CommonSetup {
         String day =  dob.get(1).toString();
         String year = dob.get(2).toString();
         String number = testData.get("phone").toString();
-        String userName = testData.get("userName").toString().replace("[RAND]",RandomStringUtils.random(6));
+        String userName = testData.get("userName").toString().replace("[RAND]",RandomStringUtils.randomAlphabetic(8));
         String email = userName + "@gmail.com" ;
         String desc = testData.get("about").toString();
         String password = testData.get("password").toString();
+        String msg = testData.get("msg").toString();
 
-        registrationPO.test();
+        registrationPO.verifyMsg(name,lastName,maritalStatus,hobby,country,month,day,year,number,userName,email,desc,password,msg);
 
     }
 

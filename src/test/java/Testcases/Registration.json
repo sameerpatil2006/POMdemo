@@ -12,7 +12,8 @@
         "userName" : "[RAND]",
         "email" : "",
         "about" : "Hello World !!",
-        "password" : "Hello123!"
+        "password" : "Hello123!",
+        "msg" : "* This field is required"
       }
   ]
 }
