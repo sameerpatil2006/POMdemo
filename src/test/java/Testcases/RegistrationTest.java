@@ -7,8 +7,14 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class RegistrationTest extends CommonSetup {
 
     protected CommonPO<WebElement> common;
@@ -20,6 +26,15 @@ public class RegistrationTest extends CommonSetup {
         registrationPO = new RegistrationPO<>(driver);
         common.invokeRegistration();
         getData("C:\\Users\\Sameer\\IdeaProjects\\DemoQA\\src\\test\\java\\Testcases\\Registration.json");
+    }
+
+    @BeforeMethod
+    public void beforeMethod(){
+    }
+
+    @AfterMethod
+    public void afterMethod(){
+        common.invokeRegistration();
     }
 
     @Test(dataProvider = "getJSON_Data", dataProviderClass = JSONProvider.class)
@@ -38,10 +53,25 @@ public class RegistrationTest extends CommonSetup {
         String email = userName + "@gmail.com" ;
         String desc = testData.get("about").toString();
         String password = testData.get("password").toString();
+        String confPwd = testData.get("confPwd").toString();
         String msg = testData.get("msg").toString();
 
-        registrationPO.verifyMsg(name,lastName,maritalStatus,hobby,country,month,day,year,number,userName,email,desc,password,msg);
-
+        List<String> regList = new ArrayList<String>(){{
+            add(name);
+            add(lastName);
+            add(maritalStatus);
+            add(country);
+            add(month);
+            add(day);
+            add(year);
+            add(desc);
+            add(hobby);
+            add(number);
+            add(userName);
+            add(email);
+            add(password);
+            add(confPwd);
+        }};
+        registrationPO.verifyMsg(regList,msg);
     }
-
 }

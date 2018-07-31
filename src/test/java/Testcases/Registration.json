@@ -8,12 +8,131 @@
         "hobby" : "Dance",
         "country" : "India",
         "dob" : [10,10,2005],
-        "phone" : 11234567890,
+        "phone" : "12345678987",
         "userName" : "[RAND]",
-        "email" : "",
+        "email" : "abc@xyz.com",
         "about" : "Hello World !!",
-        "password" : "Hello123!",
-        "msg" : "* This field is required"
-      }
+        "password" : "Hello123456!",
+        "confPwd" : "Hello123456!",
+        "msg" : "Thank you for your registration"
+      },
+    {
+      "rowID" : "registrationForm.02",
+      "name" : "Robert",
+      "lastName" : "Mike",
+      "maritalStatus" : "Single",
+      "hobby" : "Dance",
+      "country" : "India",
+      "dob" : [10,10,2005],
+      "phone" : "12345678987",
+      "userName" : "[RAND]",
+      "email" : "abc@xyz.com",
+      "about" : "Hello World !!",
+      "password" : "",
+      "confPwd" : "",
+      "msg" : "* This field is required"
+    },
+    {
+      "rowID" : "registrationForm.03",
+      "name" : "Robert",
+      "lastName" : "Mike",
+      "maritalStatus" : "Single",
+      "hobby" : "Dance",
+      "country" : "India",
+      "dob" : [10,10,2005],
+      "phone" : "",
+      "userName" : "[RAND]",
+      "email" : "abc@xyz.com",
+      "about" : "Hello World !!",
+      "password" : "Hello123456!",
+      "confPwd" : "Hello123456!",
+      "msg" : "* This field is required"
+    },
+
+    {
+      "rowID" : "registrationForm.04",
+      "name" : "Robert",
+      "lastName" : "Mike",
+      "maritalStatus" : "Single",
+      "hobby" : "Dance",
+      "country" : "India",
+      "dob" : [10,10,2005],
+      "phone" : "wa12345678987",
+      "userName" : "[RAND]",
+      "email" : "abc@xyz.com",
+      "about" : "Hello World !!",
+      "password" : "Hello123456!",
+      "confPwd" : "Hello123456!",
+      "msg" : "* Minimum 10 Digits starting with Country Code"
+    },
+    {
+      "rowID": "registrationForm.05",
+      "name": "Robert",
+      "lastName": "Mike",
+      "maritalStatus": "Single",
+      "hobby": "Dance",
+      "country": "India",
+      "dob": [10,10,2005],
+      "phone": "12345678987",
+      "userName": "[RAND]",
+      "email": "abc@xyz.com",
+      "about": "Hello World !!",
+      "password": "Hello",
+      "confPwd" : "Hello",
+      "msg": "* Minimum 8 characters required"
+    },
+
+    {
+      "rowID": "registrationForm.06",
+      "name": "Robert",
+      "lastName": "Mike",
+      "maritalStatus": "Single",
+      "hobby": "Dance",
+      "country": "India",
+      "dob": [10,10,2005],
+      "phone": "12345678987",
+      "userName": "[RAND]",
+      "email": "abc@xyz.com",
+      "about": "Hello World !!",
+      "password": "Hello123456!",
+      "confPwd" : "Hello",
+      "msg": "* Fields do not match"
+    },
+
+    {
+      "rowID": "registrationForm.07",
+      "name": "Robert",
+      "lastName": "Mike",
+      "maritalStatus": "Single",
+      "hobby": "Dance",
+      "country": "India",
+      "dob": [10,10,2005],
+      "phone": "12345678987",
+      "userName": "test",
+      "email": "abc@xyz.com",
+      "about": "Hello World !!",
+      "password": "Hello123456!",
+      "confPwd" : "Hello123456!",
+      "msg": ": Username already exists"
+    },
+
+    {
+      "rowID": "registrationForm.07",
+      "name": "Robert",
+      "lastName": "Mike",
+      "maritalStatus": "Single",
+      "hobby": "Dance",
+      "country": "India",
+      "dob": [10,10,2005],
+      "phone": "12345678987",
+      "userName": "[RAND]",
+      "email": "test",
+      "about": "Hello World !!",
+      "password": "Hello123456!",
+      "confPwd" : "Hello123456!",
+      "msg": ": E-mail address already exists"
+    }
+
+
   ]
 }
