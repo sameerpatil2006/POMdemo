@@ -44,6 +44,49 @@ public class CommonPO <W extends WebElement> {
     @FindBy(linkText = "Registration")
     public W registrationLink;
 
+    @FindBy(linkText = "Draggable")
+    public W draggableLink;
+
+    @FindBy(linkText = "Droppable")
+    public W droppableLink;
+
+    @FindBy(linkText = "Resizable")
+    public W resizableLink;
+
+    @FindBy(linkText = "Selectable")
+    public W selectableLink;
+
+    @FindBy(linkText = "Sortable")
+    public W sortableLink;
+
+    @FindBy(linkText = "Accordion")
+    public W accordionLink;
+
+    @FindBy(linkText = "Autocomplete")
+    public W autocompleteLink;
+
+    @FindBy(linkText = "Datepicker")
+    public W datepickerLink;
+
+    @FindBy(linkText = "Menu")
+    public W menuLink;
+
+    @FindBy(linkText = "Slider")
+    public W sliderLink;
+
+    @FindBy(linkText = "Tabs")
+    public W tabsLink;
+
+    @FindBy(linkText = "Tooltip")
+    public W tooltipLink;
+
+    @FindBy(linkText = "Frames and windows")
+    public W framesLink;
+
+
+    /**
+     * click on registration
+     */
     public void invokeRegistration(){
         registrationLink.click();
     }
@@ -77,5 +120,76 @@ public class CommonPO <W extends WebElement> {
                 break;
        }
         Assert.assertEquals(title,label);
+    }
+
+    public void verifyUrl(String urlType) throws Exception{
+        String currentUrl = null;
+        String urlPrefix = "http://demoqa.com/";
+        switch (urlType){
+            case "registration" :
+                registrationLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+            case "draggable" :
+                draggableLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+            case "droppable" :
+                droppableLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+            case "resizable" :
+                resizableLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+
+            case "selectable" :
+                selectableLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+            case "sortable" :
+                sortableLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+
+            case "accordion" :
+                accordionLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+            case "autocomplete" :
+                autocompleteLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+
+            case "datepicker" :
+                datepickerLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+            case "menu" :
+                menuLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+
+            case "slider" :
+                sliderLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+
+            case "tabs" :
+                tabsLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+
+            case "tooltip" :
+                tooltipLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+
+            case "frames-and-windows" :
+                framesLink.click();
+                currentUrl = driver.getCurrentUrl();
+                break;
+        }
+        Assert.assertEquals(currentUrl, urlPrefix + urlType + "/");
     }
 }

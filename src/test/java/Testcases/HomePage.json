@@ -24,5 +24,97 @@
       "rowID": "homePageLabel.06",
       "Label": "Contact"
     }
-]
+],
+
+  "homePageLinks" : [
+    {
+      "rowID" : "homePageLink.01",
+      "feature" : "registration"
+    },
+    {
+      "rowID" : "homePageLink.02",
+      "feature" : "draggable"
+    },
+    {
+      "rowID" : "homePageLink.03",
+      "feature" : "droppable"
+    },
+    {
+      "rowID" : "homePageLink.04",
+      "feature" : "resizable"
+    },
+    {
+      "rowID" : "homePageLink.05",
+      "feature" : "selectable"
+    },
+    {
+      "rowID" : "homePageLink.06",
+      "feature" : "sortable"
+    },
+    {
+      "rowID" : "homePageLink.07",
+      "feature" : "accordion"
+    },
+    {
+      "rowID" : "homePageLink.08",
+      "feature" : "autocomplete"
+    },
+    {
+      "rowID" : "homePageLink.09",
+      "feature" : "datepicker"
+    },
+    {
+      "rowID" : "homePageLink.10",
+      "feature" : "menu"
+    },
+    {
+      "rowID" : "homePageLink.11",
+      "feature" : "slider"
+    },
+    {
+      "rowID" : "homePageLink.12",
+      "feature" : "tabs"
+    },
+    {
+      "rowID" : "homePageLink.13",
+      "feature" : "tooltip"
+    },
+    {
+      "rowID" : "homePageLink.14",
+      "feature" : "frames-and-windows"
+    }
+  ],
+
+  "homePageTabs" : [
+    {
+      "rowID" : "homePageTabs.01",
+      "tab" : "tab1",
+      "contents" : "Content 1 Title The content could contain anything text page or submit form or any other HTML objects."
+
+    },
+    {
+      "rowID" : "homePageTabs.02",
+      "tab" : "tab1",
+      "contents" : "Content 1 Title The content could contain anything text page or submit form or any other HTML objects."
+
+    },
+    {
+      "rowID" : "homePageTabs.03",
+      "tab" : "tab1",
+      "contents" : "Content 1 Title The content could contain anything text page or submit form or any other HTML objects."
+
+    },
+    {
+      "rowID" : "homePageTabs.04",
+      "tab" : "tab1",
+      "contents" : "Content 1 Title The content could contain anything text page or submit form or any other HTML objects."
+
+    },
+    {
+      "rowID" : "homePageTabs.05",
+      "tab" : "tab1",
+      "contents" : "Content 1 Title The content could contain anything text page or submit form or any other HTML objects."
+
+    }
+  ]
 }

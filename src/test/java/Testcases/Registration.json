@@ -2,10 +2,11 @@
   "registrationForm" : [
       {
         "rowID" : "registrationForm.01",
+        "description" : "positive",
         "name" : "Robert",
         "lastName" : "Mike",
-        "maritalStatus" : "Single",
-        "hobby" : "Dance",
+        "maritalStatus" : ["Single","Married","Divorced"],
+        "hobby" : ["Dance","",""],
         "country" : "India",
         "dob" : [10,10,2005],
         "phone" : "12345678987",
@@ -18,10 +19,11 @@
       },
     {
       "rowID" : "registrationForm.02",
+      "description" : "negative",
       "name" : "Robert",
       "lastName" : "Mike",
-      "maritalStatus" : "Single",
-      "hobby" : "Dance",
+      "maritalStatus" : ["Single","Married","Divorced"],
+      "hobby" : ["Dance","",""],
       "country" : "India",
       "dob" : [10,10,2005],
       "phone" : "12345678987",
@@ -34,10 +36,11 @@
     },
     {
       "rowID" : "registrationForm.03",
+      "description" : "negative",
       "name" : "Robert",
       "lastName" : "Mike",
-      "maritalStatus" : "Single",
-      "hobby" : "Dance",
+      "maritalStatus" : ["Single","Married","Divorced"],
+      "hobby" : ["Dance","",""],
       "country" : "India",
       "dob" : [10,10,2005],
       "phone" : "",
@@ -51,10 +54,11 @@
 
     {
       "rowID" : "registrationForm.04",
+      "description" : "negative",
       "name" : "Robert",
       "lastName" : "Mike",
-      "maritalStatus" : "Single",
-      "hobby" : "Dance",
+      "maritalStatus" : ["Single","Married","Divorced"],
+      "hobby" : ["Dance","",""],
       "country" : "India",
       "dob" : [10,10,2005],
       "phone" : "wa12345678987",
@@ -67,10 +71,11 @@
     },
     {
       "rowID": "registrationForm.05",
+      "description" : "negative",
       "name": "Robert",
       "lastName": "Mike",
-      "maritalStatus": "Single",
-      "hobby": "Dance",
+      "maritalStatus": ["Single","Married","Divorced"],
+      "hobby": ["Dance","",""],
       "country": "India",
       "dob": [10,10,2005],
       "phone": "12345678987",
@@ -84,10 +89,11 @@
 
     {
       "rowID": "registrationForm.06",
+      "description" : "negative",
       "name": "Robert",
       "lastName": "Mike",
-      "maritalStatus": "Single",
-      "hobby": "Dance",
+      "maritalStatus": ["Single","Married","Divorced"],
+      "hobby": ["Dance","",""],
       "country": "India",
       "dob": [10,10,2005],
       "phone": "12345678987",
@@ -101,10 +107,11 @@
 
     {
       "rowID": "registrationForm.07",
+      "description" : "loginError",
       "name": "Robert",
       "lastName": "Mike",
-      "maritalStatus": "Single",
-      "hobby": "Dance",
+      "maritalStatus": ["Single","Married","Divorced"],
+      "hobby": ["Dance","",""],
       "country": "India",
       "dob": [10,10,2005],
       "phone": "12345678987",
@@ -113,15 +120,16 @@
       "about": "Hello World !!",
       "password": "Hello123456!",
       "confPwd" : "Hello123456!",
-      "msg": ": Username already exists"
+      "msg": "Error: Username already exists"
     },
 
     {
-      "rowID": "registrationForm.07",
+      "rowID": "registrationForm.08",
+      "description" : "loginError",
       "name": "Robert",
       "lastName": "Mike",
-      "maritalStatus": "Single",
-      "hobby": "Dance",
+      "maritalStatus": ["Single","Married","Divorced"],
+      "hobby": ["Dance","",""],
       "country": "India",
       "dob": [10,10,2005],
       "phone": "12345678987",
@@ -130,9 +138,123 @@
       "about": "Hello World !!",
       "password": "Hello123456!",
       "confPwd" : "Hello123456!",
-      "msg": ": E-mail address already exists"
+      "msg": "Error: E-mail address already exists"
     }
+  ],
 
+  "passwordStrength" :[
+    {
+      "rowID" : "passWordStrength.01",
+      "description" : "",
+      "name": "",
+      "lastName": "",
+      "maritalStatus": [],
+      "hobby": [],
+      "country": "",
+      "dob": [],
+      "phone": "",
+      "userName": "",
+      "email": "",
+      "about": "",
+      "password": "Hello123456!",
+      "confPwd" : "Hello123",
+      "msg": "Mismatch",
+      "color": "#ffa0a0"
+    },
 
+    {
+      "rowID" : "passWordStrength.02",
+      "description" : "",
+      "name": "",
+      "lastName": "",
+      "maritalStatus": [],
+      "hobby": [],
+      "country": "",
+      "dob": [],
+      "phone": "",
+      "userName": "",
+      "email": "",
+      "about": "",
+      "password": "",
+      "confPwd" : "",
+      "msg": "Strength Indicator",
+      "color" : "#eeeeee"
+    },
+
+    {
+      "rowID" : "passWordStrength.03",
+      "description" : "",
+      "name": "",
+      "lastName": "",
+      "maritalStatus": [],
+      "hobby": [],
+      "country": "",
+      "dob": [],
+      "phone": "",
+      "userName": "",
+      "email": "",
+      "about": "",
+      "password": "qwerty",
+      "confPwd" : "",
+      "msg": "Very weak",
+      "color" : "#ffa0a0"
+    },
+
+    {
+      "rowID" : "passWordStrength.04",
+      "description" : "",
+      "name": "",
+      "lastName": "",
+      "maritalStatus": [],
+      "hobby": [],
+      "country": "",
+      "dob": [],
+      "phone": "",
+      "userName": "",
+      "email": "",
+      "about": "",
+      "password": "QW12er",
+      "confPwd" : "",
+      "msg": "Weak",
+      "color" : "#ffb78c"
+    },
+
+    {
+      "rowID" : "passWordStrength.05",
+      "description" : "",
+      "name": "",
+      "lastName": "",
+      "maritalStatus": [],
+      "hobby": [],
+      "country": "",
+      "dob": [],
+      "phone": "",
+      "userName": "",
+      "email": "",
+      "about": "",
+      "password": "QW12er3",
+      "confPwd" : "",
+      "msg": "Medium",
+      "color" : "#ffec8b"
+    },
+
+    {
+      "rowID" : "passWordStrength.06",
+      "description" : "",
+      "name": "",
+      "lastName": "",
+      "maritalStatus": [],
+      "hobby": [],
+      "country": "",
+      "dob": [],
+      "phone": "",
+      "userName": "",
+      "email": "",
+      "about": "",
+      "password": "QW12er34t",
+      "confPwd" : "",
+      "msg": "Strong",
+      "color" : "#c3ff88"
+    }
   ]
 }
