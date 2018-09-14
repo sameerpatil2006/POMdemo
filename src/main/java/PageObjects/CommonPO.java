@@ -192,4 +192,22 @@ public class CommonPO <W extends WebElement> {
         }
         Assert.assertEquals(currentUrl, urlPrefix + urlType + "/");
     }
+
+
+    public void goTo(String pageName){
+        switch (pageName){
+            case "registration" :
+                registrationLink.click();
+                break;
+
+            case "draggable" :
+                draggableLink.click();
+                break;
+
+            case "droppable" :
+                droppableLink.click();
+                break;
+        }
+
+    }
 }

@@ -94,27 +94,44 @@
     },
     {
       "rowID" : "homePageTabs.02",
-      "tab" : "tab1",
-      "contents" : "Content 1 Title The content could contain anything text page or submit form or any other HTML objects."
+      "tab" : "tab2",
+      "contents" : "Content 2 Title The content could contain anything text page or submit form or any other HTML objects."
 
     },
     {
       "rowID" : "homePageTabs.03",
-      "tab" : "tab1",
-      "contents" : "Content 1 Title The content could contain anything text page or submit form or any other HTML objects."
+      "tab" : "tab3",
+      "contents" : "Content 3 Title The content could contain anything text page or submit form or any other HTML objects."
 
     },
     {
       "rowID" : "homePageTabs.04",
-      "tab" : "tab1",
-      "contents" : "Content 1 Title The content could contain anything text page or submit form or any other HTML objects."
+      "tab" : "tab4",
+      "contents" : "Content 4 Title The content could contain anything text page or submit form or any other HTML objects."
 
     },
     {
       "rowID" : "homePageTabs.05",
-      "tab" : "tab1",
-      "contents" : "Content 1 Title The content could contain anything text page or submit form or any other HTML objects."
+      "tab" : "tab5",
+      "contents" : "Content 5 Title The content could contain anything text page or submit form or any other HTML objects."
+    }
+  ],
 
+  "toolTips" : [
+    {
+      "rowID" : "toolTips.01",
+      "tool" : "facebook",
+      "toolTip" : "Like us on Facebook"
+    },
+    {
+      "rowID" : "toolTips.01",
+      "tool" : "twitter",
+      "toolTip" : "Follow us on Twitter"
+    },
+    {
+      "rowID" : "toolTips.01",
+      "tool" : "google",
+      "toolTip" : "Circle us on Google Plus"
     }
   ]
 }

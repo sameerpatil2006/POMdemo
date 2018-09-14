@@ -1,0 +1,48 @@
+{
+  "dragTest" : [
+    {
+      "rowID" : "dragTest.01",
+      "xset" : 400,
+      "yset" : 40,
+      "type" : "FreeDrag"
+    },
+
+    {
+      "rowID" : "dragTest.02",
+      "xset" : 0,
+      "yset" : 100,
+      "type" : "Vertical"
+    },
+
+    {
+      "rowID" : "dragTest.03",
+      "xset" : 100,
+      "yset" : 0,
+      "type" : "Horizontal"
+    }
+  ],
+
+  "dragEvent" : [
+    {
+      "rowID" : "dragEvent.01",
+      "type" : "beforeStart",
+      "expected" : "0"
+     },
+    {
+      "rowID" : "dragEvent.02",
+      "type" : "afterStart",
+      "expected" : "1"
+
+    },
+    {
+      "rowID" : "dragEvent.03",
+      "type" : "beforeStop",
+      "expected" : "0"
+    },
+    {
+      "rowID" : "dragEvent.04",
+      "type" : "afterStop",
+      "expected" : "1"
+    }
+  ]
+}

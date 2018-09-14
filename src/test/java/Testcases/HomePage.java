@@ -45,10 +45,17 @@ public class HomePage extends CommonSetup {
         String tab = data.get("tab").toString();
         String contents = data.get("contents").toString();
         home.verifyHomePageTabs(tab,contents);
+    }
 
+    @Test(dataProvider = "getJSON_Data", dataProviderClass = JSONProvider.class)
+    public void toolTips(String rowID, JSONObject data) throws Exception{
+        String tool = data.get("tool").toString();
+        String toolTip = data.get("toolTip").toString();
+        home.verifyToolTip(tool,toolTip);
     }
 
     @AfterClass
     public void classTearDown() throws Exception{
+
     }
 }

@@ -122,6 +122,7 @@ public class RegistrationPO <W extends WebElement> extends CommonPO {
         Assert.assertEquals(colorCode,color);
     }
 
+
     /*public void verifyColor(Registration registration, String type) throws Exception{
 
         String color = null;

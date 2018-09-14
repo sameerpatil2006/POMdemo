@@ -2,8 +2,12 @@ package PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+
+import javax.swing.*;
 
 public class HomePagePO<W extends WebElement> extends CommonPO<W>{
 
@@ -37,6 +41,15 @@ public class HomePagePO<W extends WebElement> extends CommonPO<W>{
     @FindBy(id = "tabs-5")
     public W tabContent5;
 
+    @FindBy(xpath = "//*[@id=\"ipt-kb-social-widget-2\"]/ul/li[1]/a")
+    public W facebookLink;
+
+    @FindBy(xpath = "//*[@id=\"ipt-kb-social-widget-2\"]/ul/li[2]/a")
+    public W twitterLink;
+
+    @FindBy(xpath = "//*[@id=\"ipt-kb-social-widget-2\"]/ul/li[3]/a")
+    public W googleLink;
+
     public HomePagePO(WebDriver driver) {
         super(driver);
     }
@@ -69,4 +82,32 @@ public class HomePagePO<W extends WebElement> extends CommonPO<W>{
         content = content.replace("\n"," ");
         Assert.assertEquals(content,contents);
     }
+
+    /**
+     *
+     */
+    public void verifyToolTip(String tool, String toolTip){
+       // Actions tools = new Actions(driver);
+        String tipValue = null;
+
+        switch (tool){
+            case "facebook" :
+                //tools.moveToElement(facebkTip).build().perform();
+                tipValue = facebookLink.getAttribute("title");
+                break;
+            case  "twitter" :
+                //tools.moveToElement(twitterTip).build().perform();
+                tipValue = twitterLink.getAttribute("title");
+                break;
+            case "google" :
+                //tools.moveToElement(googleTip).build().perform();
+                tipValue = googleLink.getAttribute("title");
+                break;
+        }
+
+        System.out.println(tipValue);
+        Assert.assertEquals(tipValue,toolTip);
+
+    }
+
 }

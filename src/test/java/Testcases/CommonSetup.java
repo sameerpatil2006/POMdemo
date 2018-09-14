@@ -9,10 +9,10 @@ import org.testng.annotations.BeforeSuite;
 public class CommonSetup {
 
     WebDriver driver;
-
     public void getData(String jsonFile){
         JSONProvider.jsonFile = jsonFile;
     }
+
     @BeforeSuite
     public void suiteSetup() {
         SeleniumDriver seleniumDriver = new SeleniumDriver();

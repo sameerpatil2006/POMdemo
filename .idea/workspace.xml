@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1934c318-0de3-4246-8488-78cba2d3df60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/CommonPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utility/JSONProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utility/SeleniumDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/CommonSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/HomePage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Registration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/RegistrationTest.java" afterDir="false" />
+    <list default="true" id="1934c318-0de3-4246-8488-78cba2d3df60" name="Default" comment="Registration Form">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/DraggablePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/Draggable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Testcases/DraggableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/PageObjects/CommonPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/PageObjects/CommonPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Testcases/CommonSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Testcases/CommonSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Testcases/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Testcases/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/CommonPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/CommonPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/CommonSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/CommonSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/HomePage.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/HomePage.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -41,27 +45,30 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DemoQA" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CommonPO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/CommonPO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="3230">
+              <caret line="196" column="16" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/RegistrationTest.java">
+      <file leaf-file-name="DraggablePO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/DraggablePO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,57 +88,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registration.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/Registration.json">
+      <file leaf-file-name="Assert.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/Assert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonSetup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/CommonSetup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="2652">
+              <caret line="176" column="21" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#5482#5483#0" expanded="true" />
+                <element signature="e#5528#5529#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationPO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java">
+      <file leaf-file-name="DraggableTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/DraggableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="17">
+              <caret line="23" selection-start-line="12" selection-start-column="4" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePagePO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java">
+      <file leaf-file-name="Draggable.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/Draggable.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/HomePage.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="476">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -144,6 +130,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>testname</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -657,16 +648,26 @@
         <option value="$PROJECT_DIR$/driver/src/main/java/SeleniumDriver.java" />
         <option value="$PROJECT_DIR$/driver/src/main/java/Drivers/SeleniumDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utility/JSONProvider.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/Testcases/Registration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/Registration1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/HomeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/BirthDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/Registration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Testcases/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Testcases/Registration.json" />
         <option value="$PROJECT_DIR$/src/main/java/Utility/SeleniumDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/Testcases/HomePage.json" />
-        <option value="$PROJECT_DIR$/src/test/java/Testcases/Registration.json" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Testcases/CommonSetup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PageObjects/CommonPO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Testcases/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Testcases/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/CommonPO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Testcases/CommonSetup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Testcases/Draggable.json" />
+        <option value="$PROJECT_DIR$/src/test/java/Testcases/DraggableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/DraggablePO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/DroppablePO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Testcases/DroppableTest.java" />
       </list>
     </option>
   </component>
@@ -680,8 +681,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="198" />
-    <option name="y" value="147" />
+    <option name="x" value="681" />
+    <option name="y" value="117" />
     <option name="width" value="1890" />
     <option name="height" value="930" />
   </component>
@@ -691,9 +692,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -760,9 +760,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Sameer/IdeaProjects/DemoQA/src/main/java/Utility/JSONProvider.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../playLocal" />
@@ -785,32 +787,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HomePage.homePageLabel">
+  <component name="RunManager" selected="TestNG.DraggableTest.dragEvent">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="HomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Testcases" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.HomePage" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -828,7 +807,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HomePage.homePageLabel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DraggableTest.dragEvent" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Testcases" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.DraggableTest" />
+      <option name="METHOD_NAME" value="dragEvent" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="DraggableTest.dragTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoQA_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Testcases" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.DraggableTest" />
+      <option name="METHOD_NAME" value="dragTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="HomePage.homePageLinks" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_test" />
       <extension name="coverage">
         <pattern>
@@ -841,7 +878,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Testcases" />
       <option name="MAIN_CLASS_NAME" value="Testcases.HomePage" />
-      <option name="METHOD_NAME" value="homePageLabel" />
+      <option name="METHOD_NAME" value="homePageLinks" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -857,7 +894,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="HomePage.homePageLabels" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePage.homePageTabs" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_test" />
       <extension name="coverage">
         <pattern>
@@ -870,7 +907,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Testcases" />
       <option name="MAIN_CLASS_NAME" value="Testcases.HomePage" />
-      <option name="METHOD_NAME" value="homePageLabels" />
+      <option name="METHOD_NAME" value="homePageTabs" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -886,7 +923,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="RegistrationTest.registrationForm" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePage.toolTips" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoQA_test" />
       <extension name="coverage">
         <pattern>
@@ -898,37 +935,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Testcases" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.RegistrationTest" />
-      <option name="METHOD_NAME" value="registrationForm" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="RegistrationTest.registrationTest1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoQA_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Testcases" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.RegistrationTest" />
-      <option name="METHOD_NAME" value="registrationTest1" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.HomePage" />
+      <option name="METHOD_NAME" value="toolTips" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -967,19 +975,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.HomePage" />
-      <item itemvalue="TestNG.HomePage.homePageLabels" />
-      <item itemvalue="TestNG.RegistrationTest.registrationTest1" />
-      <item itemvalue="TestNG.HomePage.homePageLabel" />
-      <item itemvalue="TestNG.RegistrationTest.registrationForm" />
+      <item itemvalue="TestNG.HomePage.homePageLinks" />
+      <item itemvalue="TestNG.HomePage.homePageTabs" />
+      <item itemvalue="TestNG.HomePage.toolTips" />
+      <item itemvalue="TestNG.DraggableTest.dragTest" />
+      <item itemvalue="TestNG.DraggableTest.dragEvent" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePage.homePageLabel" />
-        <item itemvalue="TestNG.RegistrationTest.registrationForm" />
-        <item itemvalue="TestNG.RegistrationTest.registrationTest1" />
-        <item itemvalue="TestNG.HomePage.homePageLabels" />
-        <item itemvalue="JUnit.HomePage" />
+        <item itemvalue="TestNG.DraggableTest.dragEvent" />
+        <item itemvalue="TestNG.DraggableTest.dragTest" />
+        <item itemvalue="TestNG.HomePage.homePageLinks" />
+        <item itemvalue="TestNG.HomePage.toolTips" />
+        <item itemvalue="TestNG.HomePage.homePageTabs" />
       </list>
     </recent_temporary>
   </component>
@@ -996,78 +1004,111 @@
       <workItem from="1532199494682" duration="3585000" />
       <workItem from="1532204311414" duration="26981000" />
       <workItem from="1532656448538" duration="16265000" />
+      <workItem from="1533174173728" duration="47178000" />
+      <workItem from="1534382666469" duration="41246000" />
+      <workItem from="1536889184381" duration="496000" />
     </task>
+    <task id="LOCAL-00001" summary="Registration Test">
+      <created>1532922231088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532922231088</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Registration Form">
+      <created>1533010796042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533010796042</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Registration testcases and home page testcases">
+      <created>1534003507435</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534003507435</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTest_registrationTest1 - 2018.07.29 at 13h 38m 14s.xml">
-      <configuration name="RegistrationTest.registrationTest1" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.08 at 19h 32m 23s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTest_registrationForm - 2018.07.29 at 14h 03m 39s.xml">
-      <configuration name="RegistrationTest.registrationForm" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.08 at 19h 34m 06s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTest_registrationForm - 2018.07.29 at 14h 03m 43s.xml">
-      <configuration name="RegistrationTest.registrationForm" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.08 at 19h 35m 28s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTest_registrationForm - 2018.07.29 at 14h 05m 14s.xml">
-      <configuration name="RegistrationTest.registrationForm" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.08 at 19h 36m 07s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTest_registrationForm - 2018.07.29 at 14h 06m 54s.xml">
-      <configuration name="RegistrationTest.registrationForm" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.09 at 20h 05m 10s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTest_registrationForm - 2018.07.29 at 15h 04m 27s.xml">
-      <configuration name="RegistrationTest.registrationForm" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.09 at 20h 16m 36s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTest_registrationForm - 2018.07.29 at 15h 06m 57s.xml">
-      <configuration name="RegistrationTest.registrationForm" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.09 at 20h 39m 58s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTest_registrationForm - 2018.07.29 at 15h 11m 02s.xml">
-      <configuration name="RegistrationTest.registrationForm" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.09 at 20h 42m 03s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage_homePageLabel - 2018.07.29 at 16h 10m 49s.xml">
-      <configuration name="HomePage.homePageLabel" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.09 at 20h 45m 08s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePage_homePageLabel - 2018.07.29 at 16h 11m 09s.xml">
-      <configuration name="HomePage.homePageLabel" configurationId="TestNG" />
+    <history-entry file="DraggableTest_dragEvent - 2018.09.09 at 20h 49m 35s.xml">
+      <configuration name="DraggableTest.dragEvent" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46831000" />
+    <option name="totallyTimeSpent" value="157780000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3283582" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6426117" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.64179105" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3283582" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980484" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3298969" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26234818" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.32955465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
+      <window_info anchor="bottom" x="23" y="251" width="1235" height="178" id="Debug" order="3" weight="0.57462686" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3291592" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291592" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1076,54 +1117,80 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Registration Test" />
+    <MESSAGE value="Registration Form" />
+    <MESSAGE value="Registration testcases and home page testcases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registration testcases and home page testcases" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Testcases/RegistrationTest.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java</url>
+          <line>94</line>
           <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Testcases/RegistrationTest.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java</url>
-          <line>18</line>
+          <line>118</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/CommonPO.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Testcases/HomePage.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Testcases/DraggableTest.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/DraggablePO.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/DraggablePO.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="59" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/CommonPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/SeleniumDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1140,8 +1207,6 @@
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1150,9 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,58 +1262,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.13.0/c4a49cfe5172bb6c6de784abd4c2b21470083815/selenium-api-3.13.0-sources.jar!/org/openqa/selenium/WebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="857" column="25" selection-start-line="857" selection-start-column="25" selection-end-line="857" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/SeleniumDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/annotations/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/JSONProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="669" selection-start-line="669" selection-end-line="669" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
@@ -1262,13 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/Registration.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1276,70 +1283,216 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/HomePage.json">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.0/d48f964b56a931ec2712ce5d411a40d114a69753/commons-lang3-3.0-sources.jar!/org/apache/commons/lang3/RandomStringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/annotations/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/Registration.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/Registration1.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.13.0/c4a49cfe5172bb6c6de784abd4c2b21470083815/selenium-api-3.13.0-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="351" column="29" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/Registration.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="256" column="24" selection-start-line="256" selection-start-column="24" selection-end-line="256" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/SeleniumDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/BirthDate.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/HomePagePO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-end-line="15" />
+        <state relative-caret-position="867">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="670" selection-start-line="670" selection-end-line="670" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/CommonSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="211">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.13.0/e7c39e47444954b101e156e7e119c7576a49dbb6/selenium-remote-driver-3.13.0-sources.jar!/org/openqa/selenium/interactions/Actions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="497" column="17" selection-start-line="497" selection-start-column="17" selection-end-line="497" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="50" column="59" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/HomePage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="133" column="43" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="106" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="176" column="21" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
+          <folding>
+            <element signature="e#5482#5483#0" expanded="true" />
+            <element signature="e#5528#5529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/Draggable.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/JSONProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/DraggablePO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/CommonPO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="3230">
+          <caret line="196" column="16" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/DroppablePO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/DroppableTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="-1581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Testcases/DraggableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" selection-start-line="12" selection-start-column="4" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
