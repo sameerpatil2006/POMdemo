@@ -1,5 +1,5 @@
 # POMdemo
-Selenium Page Object Modeling Framework
+Selenium Page Object Modeling Framework.
 I have created a sample selenium framework with page object modeling to test a wordpress website DemoQA.com with datadriven approach. 
 Technologies used : 
 Selenium 3.13, 
